@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Canadian Elite Travel</title>
+  <!-- <include('./css-contact');> -->
+  <link rel="stylesheet" href="contact_v1.css">
+
+</head>
+
+<body>
+  <br><br>
+  <div class="container">
+    <div class="card-deck mb-3 text-center">
+      <div class="card mb-6 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Calgary</h4>
+        </div>
+        <div class="card-body">
+          <ul class="list-unstyled mt-3 mb-4">
+            
+            <!-- agency 1 data -->
+            <li id="agency_id_1">Agency ID: 1</li>
+            <li id = "agency_address_1">Agency Address</li>
+            <li id = "agency_phone_1">Agency phone</li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-block btn-outline-primary">Details</button>
+        </div>
+      </div>
+      <div class="card mb-6 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Oktoks</h4>
+        </div>
+        <div class="card-body">
+          <ul class="list-unstyled mt-3 mb-4">
+
+            <!-- agency 2 data -->
+            <li id="agency_id_2">Agency ID: 2</li>
+            <li id = "agency_address_2">Agency Address</li>
+            <li id = "agency_phone_2">Agency phone</li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-block btn-outline-primary">Details</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="container">
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title">Contact Us</h5>
+        <hr>
+        <p>Swing by for a cup of coffee, or leave us a message:</p>
+        <form action="/action_page.php">
+
+        <!-- contact form data  -->
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" class="form-control" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" class="form-control" placeholder="Your last name..">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" class="form-control" placeholder="bettyjin.sun@gmail.com..">
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" class="form-control"
+            placeholder="Write something.." style="height:170px"></textarea>
+          <br>
+          <div>
+            <input id ="submit_contact" type="submit" class="btn btn-default btn-round btn-block btn-lg" value="Submit">
+          </div>
+
+        </form>
+
+        </div>
+        </div>
+        </div>
+</body>
+
+</html>
